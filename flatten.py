@@ -15,4 +15,4 @@ def flatten(l):
             flattenList.extend(flatten(i))
     return flattenList
 #test
-flatten([[1,'a',['cat'],2],[[[3]],'dog'],4,5])
+print(flatten([[1,'a',['cat'],2],[[[3]],'dog'],4,5]))
