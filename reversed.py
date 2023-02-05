@@ -12,4 +12,4 @@ def get_reversed(aList):
         L.append(aList[i][::-1])
     return L
 #test
-get_reversed([[1, 2], [3, 4], [5, 6, 7]])
+print(get_reversed([[1, 2], [3, 4], [5, 6, 7]]))
